@@ -1,0 +1,31 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+
+# Ignore Python virtual environments
+venv/
+*.venv
+.env/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.sqlite
+
+# Ignore all .srt files (you might not want to version control your input/output files)
+*.srt
+
+# Ignore Mac OS directory metadata
+.DS_Store
+
+# Ignore all obsidian files
+.gitignore
+.gitignore/
+.gitignore/*
